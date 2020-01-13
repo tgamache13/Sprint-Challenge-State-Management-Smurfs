@@ -17,8 +17,8 @@ const Smurf = () => {
                 < >
                 <div className='smurf' key={smurf.id} index={index}>
                     <h1>{smurf.name}</h1>
-                    <h2>{smurf.age}</h2>
-                    <h3>{smurf.height}</h3>
+                    <h2>Age: {smurf.age}</h2>
+                    <h3>Height: {smurf.height}</h3>
                 
                     <button className='delete' onClick={handleDelete} value={smurf.id}>
                         Delete {smurf.name} Smurf

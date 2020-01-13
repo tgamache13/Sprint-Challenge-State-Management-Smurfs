@@ -5,6 +5,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url('./images/smurfs_bg.jfif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1000px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .smurf-list {
     display: flex; 
@@ -16,15 +21,29 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        border: 2px solid black;
+        box-shadow: 6px 3px 3px black;
+        .delete {
+            // border: 2px solid black;
+            height: 40px;
+            border-style: groove;
+        }
     }
 }
 .form {
     display: flex;
     margin-top: 5%;
+    background-color: blue;
+    margin-bottom: 2%;
+    color: white;
+    padding-bottom: 5px;
     input {
         margin: 1%;
+        border-style: groove;
     }
     .add {
         margin-left: 45%;
+        height: 40px;
+        border-style: groove;
     }
 }
